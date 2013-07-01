@@ -18,6 +18,19 @@
   <title></title>
 </head>
 <body>
-  <%= yield %>
+  <nav>
+    <ul>
+      <div class="menu">
+        <ul>
+          <li><a href="/">Show All Notes</a></li>
+          <li><a href="/create">Create a Note</a></li>
+        </ul>
+      </div>
+    </ul>
+  </nav>
+  <h1 align='center'>Note Taker!</h1>
+  <div class='container'>
+    <%= yield %>
+  </div>
 </body>
 </html>

@@ -1,0 +1,10 @@
+<form class = 'quirks' name="update_note" action= "/update" method="POST">
+  <div class='notes' align='center' >
+    <h3 align='center'>Update Note</h3>
+              <input type='hidden' readonly="readonly" name='id' value=<%=@note.id%> ><br>  
+    Title:    <input type='text' name='title'><br>
+    Content:  <textarea cols="40" rows="5" name="content"></textarea>
+    <!-- Content:  <input type='text' name='content'><br> -->
+              <input type="submit" value="Update Note"><br>
+  </div>
+</form>

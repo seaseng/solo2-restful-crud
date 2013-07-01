@@ -4,6 +4,41 @@
   padding: 0px 20px 20px 20px;
   border: 1px dotted black;
 }
+
 th {
   text-align: left;
 }
+
+
+nav ul {
+  display: inline-block;
+  /*width: 30%;*/
+  text-align: left;
+  /*float: right;*/
+}
+
+nav li {
+  /*margin-right: 25px;*/
+  display: inline;
+  border: solid 2px blue;
+  background-color: #102080;
+  /*float: right;*/
+}
+
+nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  text-decoration: underline;
+}
+
+.notelist li {
+  font-size: 14px;
+  background-color: white;
+
+}
+/*input { 
+  float: right;
+}*/
